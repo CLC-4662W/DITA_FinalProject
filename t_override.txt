@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+<task id="taskId">
+  <title>Remove/Reset Reveal.js defaults </title>
+  <shortdesc>This topic describes how to override Reveal.js default formats that you don't want applied to your slides.</shortdesc>
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog>            
+  <taskbody>
+
+    <steps-unordered>
+      <step>
+        <cmd>Choose a method to reset the default:</cmd>
+		<choices><choice>Write new CSS code</choice>
+			<cmd>Create an id tag</cmd>
+			<example></example>
+			<cmd>Add CSS code for the desired effect to this id tag</cmd>
+			<example></example>
+			<cmd>In your HTML file, create a div with this id</cmd>
+			<example></example>
+			<result></result>
+		<choice>Delete resets for a specific element</choice>
+			<cmd>Find reset classes starting on line ___</cmd>
+			<cmd>Delete class for the element you want to change</cmd>
+		<choice>Modify CSS for .reveal and .slides classes</choice>
+			<cmd>Find the .reveal and .slides classes on line ___</cmd></choices>
+      </step>
+      
+    </steps-unordered>
+  </taskbody>
+</task>
