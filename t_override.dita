@@ -12,20 +12,23 @@
 
     <steps-unordered>
       <step>
-        <cmd>Choose a method to reset the default:</cmd>
-		<choices><choice>Write new CSS code</choice>
-			<cmd>Create an id tag</cmd>
-			<example></example>
+        <cmd>Choose one or more methods to reset defaults:</cmd>
+		<choices>
+		<choice>Write new CSS code</choice>
+		<!-->	<cmd>Create an id tag by adding the pound symbol before a name</cmd>
+			<stepxmp>For example, #TitleSlide</stepxmp>
 			<cmd>Add CSS code for the desired effect to this id tag</cmd>
-			<example></example>
+			<stepxmp>For example, to center the text, {text-align: center}</stepxmp>
 			<cmd>In your HTML file, create a div with this id</cmd>
-			<example></example>
-			<result></result>
+			<stepxmp></stepxmp>
+			<result><p>Every div in the HTML file with this id, will be centered.</p></result></!-->
 		<choice>Delete resets for a specific element</choice>
-			<cmd>Find reset classes starting on line ___</cmd>
-			<cmd>Delete class for the element you want to change</cmd>
+		<!-->	<cmd>Find reset classes under the "reset styles" comment</cmd>
+			<cmd>Delete class for the element you want to change</cmd></!-->
 		<choice>Modify CSS for .reveal and .slides classes</choice>
-			<cmd>Find the .reveal and .slides classes on line ___</cmd></choices>
+			<!--><cmd>Find the .reveal and .slides classes. Change the attribute you want in a different format.
+		</cmd></!-->
+		</choices>
       </step>
       
     </steps-unordered>

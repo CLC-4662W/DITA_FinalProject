@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+<task id="taskId">
+  <title>Create a bullet list slide </title>
+  <shortdesc>This topic describes how to create a slide with a bulleted list.</shortdesc>
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog>            
+  <taskbody>
+
+    <steps>
+      <step>
+        <cmd>Find the "Marvelous List" section in the Reveal.js index file.</cmd>
+	  </step>
+	  <step><cmd>Replace the text in the list item elements with your text of interest.</cmd>
+	  </step>   
+    </steps>
+  </taskbody>
+</task>
