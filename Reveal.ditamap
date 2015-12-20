@@ -2,8 +2,12 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/map.dtd">
 <map title="Using Reveal.js">
     <title>Using Reveal.js</title>
-	<topicref href= "t_BulletList.dita"/>
-	<topicref href= "t_override.dita"/>
+	<topicref href= "t_CreateSlides.dita">
+		<topicref href= "t_BulletList.dita"/>
+		<topicref href= "t_override.dita" >
+			<topicref href= "t_newCSS.dita"/>
+			<topicref href= "t_delete.dita"/></topicref>
+		<topicref href= "t_IntroSlide.dita"/></topicref>
 	<topicref href= "c_Reveal.dita"/>
 	<topicref href= "ref_Reveal.dita"/>
 </map>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+<task id="taskId">
+  <title>Override with new CSS </title>
+  <shortdesc>It is possible to override Reveal.js defaults with new CSS code.</shortdesc>
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog>            
+  <taskbody>
+
+    <steps>
+      <step>
+       <cmd>Create an id tag by adding the pound symbol before a name</cmd>
+			<stepxmp>For example, #TitleSlide </stepxmp></step>
+	  <step>
+	   <cmd>Add CSS code for the desired effect to this id tag</cmd>
+			<stepxmp>For example, to center the text, {text-align: center}</stepxmp></step>
+	  <step><cmd>In your HTML file, create a div with this id</cmd>
+			<stepxmp>xxxx</stepxmp></step>
+    </steps>
+	<result><p>Every div in the HTML file with this id will be centered.</p></result>
+  </taskbody>
+</task>
