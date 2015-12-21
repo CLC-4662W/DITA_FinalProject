@@ -1,20 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+
 <task id="taskId">
+
   <title>Override by deleting resets </title>
-  <shortdesc>It is possible to override Reveal.js defaults by deleting the the resets in the CSS file.</shortdesc>
+  
+  <shortdesc>You can override Reveal.js defaults by deleting the resets in the CSS file.</shortdesc>
+  
   <prolog>
     
     <author type="creator">Cynthia Croy</author>
 
-  </prolog>            
+  </prolog> 
+  
   <taskbody>
 
     <steps>
       <step>
-       <cmd>Find the reset classes under the "reset styles" comment</cmd></step>
+       <cmd>Find the reset classes under the "reset styles" comment</cmd>
+	  </step>
 	  <step>
-	   <cmd>Delete class for the element you want to change</cmd></step>
+	   <cmd>Delete the class for the element you wish to have follow normal defaults.</cmd>
+	   <info><note type="caution">Be sure you know the standard CSS defaults before using this method. Also be sure this is how you want your slides to appear.</note></info>
+	   
+	  </step>
     </steps>
   </taskbody>
+
 </task>

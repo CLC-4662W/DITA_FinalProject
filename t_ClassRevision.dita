@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+
+<task id="taskId">
+
+  <title>Revise existing classes </title>
+  
+  <shortdesc>You can override Reveal.js defaults by modifying the CSS classes.</shortdesc>
+  
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog> 
+  
+  <taskbody>
+    <steps>
+      <step>
+        <cmd id= "class_change">Find the .reveal and .slides classes under the "slides" comment. Change the attribute you want in a different format.</cmd>
+		<stepxmp>For example, change "font-size: 18px;" to "font-size: 12px;".</stepxmp></step>
+	</steps>
+  </taskbody>
+</task>

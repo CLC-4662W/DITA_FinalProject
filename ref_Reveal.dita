@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="ref_prose_io" xml:lang="en-us">
+
+<reference id="ref_Reveal" xml:lang="en-us">
+
   <title>Reveal.js Resources</title>
+  
   <shortdesc>These are some resources where you can find help and more information about Reveal.js.</shortdesc>
-  <prolog></prolog>
-  <refbody> <section> <title> Prerequisites</title>
+  <prolog>
+  <author type="creator">Cynthia Croy</author>
+  </prolog>
+  
+  <refbody> 
+  <section> 
+  <title> Websites </title>
     <ul>
-		<li> Computer</li>
-		<li> Internet access</li>
-		<li> Web browser</li>
-		<li> Github account</li>
-		<li> Textbooks</li>
-		<li> Syllabus</li>
-	</ul>
+		<li> http://www.lynda.com/CSS-tutorials/Modifying-original-presentation-template/137904/147630-4.html?autoplay=true</li>
+		<li> https://github.com/hakimel/reveal.js/tree/3.2.0</li></ul>
+		
+	<note>These references will require you to login to a secure site to work.</note></section>
+  
+  <section><title> Textbook </title>
+  
+	<ul><li>Duckett, Jon, HTML and CSS - Design and Build Websites, 2011.</li></ul>
 	</section>
+	
   </refbody>
 </reference>

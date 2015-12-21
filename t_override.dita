@@ -1,33 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+
 <task id="taskId">
+  
   <title>Remove/Reset Reveal.js defaults </title>
-  <shortdesc>This topic describes how to override Reveal.js default formats that you don't want applied to your slides.</shortdesc>
+  
+  <shortdesc>In some cases the Reveal.js default formats will not be suitable for your purposes. There are several methods you can use to override these defaults.</shortdesc>
+  
   <prolog>
     
     <author type="creator">Cynthia Croy</author>
 
-  </prolog>            
+  </prolog>
+  
   <taskbody>
 
     <steps-unordered>
       <step>
         <cmd>Choose one or more methods to reset defaults:</cmd>
 		<choices>
-		<choice>Write new CSS code</choice>
-		<!-->	<cmd>Create an id tag by adding the pound symbol before a name</cmd>
-			<stepxmp>For example, #TitleSlide</stepxmp>
-			<cmd>Add CSS code for the desired effect to this id tag</cmd>
-			<stepxmp>For example, to center the text, {text-align: center}</stepxmp>
-			<cmd>In your HTML file, create a div with this id</cmd>
-			<stepxmp></stepxmp>
-			<result><p>Every div in the HTML file with this id, will be centered.</p></result></!-->
-		<choice>Delete resets for a specific element</choice>
-		<!-->	<cmd>Find reset classes under the "reset styles" comment</cmd>
-			<cmd>Delete class for the element you want to change</cmd></!-->
-		<choice>Modify CSS for .reveal and .slides classes</choice>
-			<!--><cmd>Find the .reveal and .slides classes. Change the attribute you want in a different format.
-		</cmd></!-->
+		<choice>Write new CSS code.</choice>
+		
+		<choice>Delete resets for a specific element.</choice>
+		
+		<choice>Modify CSS classes for .reveal and .slides.</choice>
+
 		</choices>
       </step>
       

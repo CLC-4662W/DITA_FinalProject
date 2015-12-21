@@ -5,7 +5,7 @@
 <meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
 <meta name="DC.rights.owner" content="(C) Copyright 2015">
 <meta name="DC.Type" content="concept">
-<meta name="description" content="This document contains a description of how Reveal.js works and some definitions required to understand the description."><meta name="DC.Format" content="XHTML">
+<meta name="description" content="This document describes how Reveal.js works and includes some definitions required to understand the description and some of the tasks."><meta name="DC.Format" content="XHTML">
 <meta name="DC.Identifier" content="cintro">
 <link rel="stylesheet" type="text/css" href="commonltr.css">
 <title>Important Reveal.js concepts</title>
@@ -16,12 +16,12 @@
 
   
   
-  
-  <div class="body conbody"><p class="shortdesc">This document contains a description of how Reveal.js works and some definitions required to understand the description. </p>
+  <div class="body conbody"><p class="shortdesc">This document describes how Reveal.js works and includes some definitions required to understand the description and some of the tasks. </p>
 
   
-    <p class="p">Reveal.js uses HTML, CSS, and Javascript to create a framework for making presentations that you can display using a web browser. For a basic presentation you can use the “barebones” file that is in the test/examples directory. If you are just learning how to use HTML and CSS, the easiest thing to do is to select an example presentation and use its HTML file. Several examples can be found at https://github.com/hakimel/reveal.js/wiki/Example-Presentations. One particularly good one is included in the Reveal.js download and can be found as the “index” file in the root directory. This one is good because it contains code for all the features shown in the demonstration, so you can modify it rather than having to create it yourself.</p>
+    <p class="p">Reveal.js uses HTML, CSS, and Javascript to create a framework for making presentations that you can display using a web browser. For a basic presentation you can use the “barebones” file that is in the test/examples directory. However, if you are just learning how to use HTML and CSS, the easiest thing to do is to select an example presentation and use its HTML file. Several examples can be found at https://github.com/hakimel/reveal.js/wiki/Example-Presentations (You will need to create a Github account to access these examples). One particularly good one is included in the Reveal.js download and can be found as the “index” file in the root directory. This one is good because it contains code for all the features shown in the demonstration, so you can modify this index file rather than having to create an entirely new one yourself. This index file displays any content in a "section" element as a slide.</p>
 
+	
 	<p class="p">The HTML index file in the root directory is styled by the CSS file such that the output looks like slides. This CSS file contains a string of classes that reset certain elements to have characteristics associated with slides, such as numbered lists that won’t go above nine, and centered content on all the slides. If you want your slides to be left justified on most slides, you can change the .reveal and .slides selectors to have a text align value of left. If one slide needs to be centered, you can selectively override this change by creating your own id’s and classes in the CSS file. If, however, you want most of your slides centered and only one left justified, you can leave the selectors alone and add the custom id’s and classes to the CSS such that they apply to the single slide.</p>
 
   

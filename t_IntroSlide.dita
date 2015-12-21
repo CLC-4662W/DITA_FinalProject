@@ -12,9 +12,10 @@
 
     <steps>
       <step>
-        <cmd>Find the "Marvelous List" section in the Reveal.js index file.</cmd>
+        <cmd>Reset the Reveal.js CSS file such that this slide will have centered content.</cmd>
+		<info><note>This step will not be necessary if you didn't make any changes for the presentation to be left justified because the Reveal.js default is to center all of the slides.</note></info>
 	  </step>
-	  <step><cmd>Replace the text in the list item elements with your text of interest.</cmd>
+	  <step><cmd>Enter text into h1, h2, and h3 elements to create a title slide.</cmd>
 	  </step>   
     </steps>
   </taskbody>

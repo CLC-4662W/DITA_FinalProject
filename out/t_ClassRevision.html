@@ -5,39 +5,30 @@
 <meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
 <meta name="DC.rights.owner" content="(C) Copyright 2015">
 <meta name="DC.Type" content="task">
-<meta name="description" content="You can override Reveal.js defaults by deleting the resets in the CSS file."><meta name="DC.Relation" scheme="URI" content="duplicate_override.html">
+<meta name="description" content="You can override Reveal.js defaults by modifying the CSS classes."><meta name="DC.Relation" scheme="URI" content="duplicate_override.html">
 <meta name="DC.Creator" content="Cynthia Croy">
 <meta name="DC.Format" content="XHTML">
 <meta name="DC.Identifier" content="taskId">
 <link rel="stylesheet" type="text/css" href="commonltr.css">
-<title>Override by deleting resets</title>
+<title>Revise existing classes</title>
 </head>
 <body id="taskId">
 <main role="main"><article role="article" aria-labelledby="ariaid-title1">
 
-  <h1 class="title topictitle1" id="ariaid-title1">Override by deleting resets </h1>
+  <h1 class="title topictitle1" id="ariaid-title1">Revise existing classes </h1>
 
   
   
   
    
   
-  <div class="body taskbody"><p class="shortdesc">You can override Reveal.js defaults by deleting the resets in the CSS file.</p>
+  <div class="body taskbody"><p class="shortdesc">You can override Reveal.js defaults by modifying the CSS classes.</p>
 
-
-    <ol class="ol steps"><li class="li step stepexpand">
-       <span class="ph cmd">Find the reset classes under the "reset styles" comment</span>
-	  </li>
-<li class="li step stepexpand">
-	   <span class="ph cmd">Delete the class for the element you wish to have follow normal defaults.</span>
-	   <div class="itemgroup info"><div class="cautiontitle">CAUTION:</div><div class="note caution">Be sure you know the standard CSS defaults before using this method. Also be sure this is how you want your slides to appear.</div>
-</div>
-	   
-	  </li>
-</ol>
+    <div class="li step p">
+        <span class="ph cmd">Find the .reveal and .slides classes under the "slides" comment. Change the attribute you want in a different format.</span>
+		<div class="itemgroup stepxmp">For example, change "font-size: 18px;" to "font-size: 12px;".</div></div>
 
   </div>
-
 
 <nav role="navigation" class="related-links">
 <div class="familylinks">

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+
+<task id="taskId">
+
+  <title>Getting started </title>
+  
+  <shortdesc>Prepare the demonstration HTML file for making a simple presentation.</shortdesc>
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog>            
+  <taskbody>
+  
+<context>
+      <p>Perform this task before making any slides.</p>
+</context>
+
+    <steps>
+	
+      <step><cmd>Find the demonstration index file in the Reveal.js root directory.</cmd></step>
+			
+	  <step><cmd>Open this file in your text editor and save it as "index_template" so that you will have a copy of the demonstration HTML file without any of your changes. Make your changes in the index file.</cmd></step>
+	  
+	  <step><cmd>Find the Reveal CSS file in the css folder located in the root directory. Again, make a copy such that you have an unmodified version.</cmd></step>
+	  
+	  <step><cmd>Comment out the "Created by" section. Do not delete it - keeping it in gives credit to the creator of Reveal.js.</cmd></step>
+	  
+	  <step><cmd>Delete the content in all the sections except "Marvelous Lists". You will need this for making your bulleted list slide. As the last step in preparing a presentation you can delete section elements so the presentation doesn't have blank slides.</cmd></step>
+	  
+    </steps>
+	
+  </taskbody>
+</task>

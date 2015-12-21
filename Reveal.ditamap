@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/map.dtd">
+
 <map title="Using Reveal.js">
     <title>Using Reveal.js</title>
-	<topicref href= "t_CreateSlides.dita">
-		<topicref href= "t_BulletList.dita"/>
-		<topicref href= "t_override.dita" >
-			<topicref href= "t_newCSS.dita"/>
-			<topicref href= "t_delete.dita"/></topicref>
-		<topicref href= "t_IntroSlide.dita"/></topicref>
 	<topicref href= "c_Reveal.dita"/>
+	<topicref href= "t_preparation.dita"/>
+	<topicref href= "t_CreateSlides.dita">
+		<topicref href= "t_override.dita" copy-to= "duplicate_override.dita">
+			<topicref href= "t_newCSS.dita"/>
+			<topicref href= "t_delete.dita"/>
+			<topicref href= "t_ClassRevision.dita"/></topicref>
+		<topicref href= "t_IntroSlide.dita">
+			<topicmeta navtitle= "duplicate_override.dita"></navtitle><shortdesc>You can use an override task to center the content on  one slide.</shortdesc></topicmeta></topicref>
+		<topicref href= "t_BulletList.dita">
+			<topicmeta><shortdesc>You can use an override task to left justify content on one slide.</shortdesc></topicmeta></topicref></topicref>
 	<topicref href= "ref_Reveal.dita"/>
 </map>
