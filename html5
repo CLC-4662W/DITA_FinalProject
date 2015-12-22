@@ -1,0 +1,294 @@
+
+init:
+
+dita2html5.init:
+
+check-arg:
+    [mkdir] Created dir: C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1
+     [echo] * dita.dir = C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1
+     [echo] * transtype = html5
+     [echo] * tempdir = C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+     [echo] * outputdir = C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 2.1.1
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Tue Dec 22 16:35:11 CST 2015
+     [echo] args.grammar.cache=yes
+     [echo] args.input=C\:\\Users\\pcuser\\Documents\\WRIT4662\\clc-4662w.github.com\\DITA_FinalProject\\reveal.ditamap
+     [echo] args.logdir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\clc-4662w.github.com\\DITA_FinalProject\\out
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1
+     [echo] dita.plugin.com.sophos.tocjs.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\com.sophos.tocjs
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1
+     [echo] dita.plugin.org.dita.docbook.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.docbook
+     [echo] dita.plugin.org.dita.eclipsecontent.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.eclipsecontent
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.javahelp.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.javahelp
+     [echo] dita.plugin.org.dita.odt.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.odt
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.specialization.eclipsemap.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.specialization.eclipsemap
+     [echo] dita.plugin.org.dita.troff.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.troff
+     [echo] dita.plugin.org.dita.wordrtf.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.wordrtf
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Users\\pcuser\\Documents\\WRIT4662\\dita-ot-2.1.1\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.temp.dir=C\:\\Users\\pcuser\\AppData\\Local\\Temp\\temp20151222163511456
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\reveal.ditamap
+     [echo] *****************************************************************
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/Reveal.ditamap
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/c_Reveal.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_preparation.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_CreateSlides.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_override.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_newCSS.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_delete.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_ClassRevision.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_IntroSlide.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_SimpleImageSlide
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_BulletList.dita
+ [gen-list] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/ref_Reveal.dita
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_preparation.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/c_Reveal.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_override.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/Reveal.ditamap
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_ClassRevision.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_BulletList.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_SimpleImageSlide
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_newCSS.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_CreateSlides.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/ref_Reveal.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_IntroSlide.dita
+   [filter] Processing file:/C:/Users/pcuser/Documents/WRIT4662/clc-4662w.github.com/DITA_FinalProject/t_delete.dita
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\outditafiles.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditatopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditamap.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\hrefditatopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\conref.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\image.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\flagimage.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\html.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\canditopics.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\subjectscheme.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\conreftargets.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\copytosource.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\subtargets.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\resourceonly.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\user.input.file.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\hreftargets.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\conref.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\hrefditatopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditatopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\conreftargets.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\canditopics.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\resourceonly.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+
+copy-image-check:
+
+copy-image:
+
+copy-html-check:
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files:
+
+keyref:
+
+conrefpush:
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\conref.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+
+conref-check:
+
+conref:
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_preparation.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\c_Reveal.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_override.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_ClassRevision.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_BulletList.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_SimpleImageSlide
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_newCSS.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_CreateSlides.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\ref_Reveal.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_IntroSlide.dita
+[topic-fragment] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_delete.dita
+
+coderef:
+
+mapref-check:
+
+mapref:
+   [mapref] Transforming into C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+   [mapref] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\preprocess\mapref.xsl
+   [mapref] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\Reveal.ditamap
+
+move-meta-entries:
+[move-meta] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\Reveal.ditamap
+[move-meta] Processing file:/C:/Users/pcuser/AppData/Local/Temp/temp20151222163511456/Reveal.ditamap
+
+mappull-check:
+
+mappull:
+  [mappull] Transforming into C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+  [mappull] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\preprocess\mappull.xsl
+  [mappull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\Reveal.ditamap
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/C:/Users/pcuser/AppData/Local/Temp/temp20151222163511456/Reveal.ditamap
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditatopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditamap.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\resourceonly.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\copytosource.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\.job.xml to C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\copytotarget2sourcemap.list
+[job-helper] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\job-helper.xsl
+
+maplink-check:
+
+maplink:
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_CreateSlides.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_IntroSlide.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_override.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_ClassRevision.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_BulletList.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_delete.dita
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_SimpleImageSlide
+  [maplink] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_newCSS.dita
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+[topicpull] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\preprocess\topicpull.xsl
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_preparation.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_CreateSlides.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_IntroSlide.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_override.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_ClassRevision.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_BulletList.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_delete.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\ref_Reveal.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\c_Reveal.dita
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_SimpleImageSlide
+[topicpull] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_newCSS.dita
+
+flag-module-check:
+
+flag-module:
+
+clean-map-check:
+
+clean-map:
+   [mapref] Transforming into C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456
+   [mapref] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\xsl\preprocess\clean-map.xsl
+   [mapref] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\Reveal.ditamap
+
+preprocess:
+
+xhtml.init:
+
+output-css-warn-message:
+
+xhtml.image-metadata-check:
+
+xhtml.image-metadata:
+
+dita.topics.html.common:
+
+dita.inner.topics.html.common:
+     [xslt] Transforming into C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\c_Reveal.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\c_Reveal.html
+     [xslt] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\plugins\org.dita.xhtml\xsl\dita2html5.xsl
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\ref_Reveal.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\ref_Reveal.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_BulletList.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_BulletList.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_ClassRevision.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_ClassRevision.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_CreateSlides.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_CreateSlides.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_IntroSlide.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_IntroSlide.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_delete.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_delete.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_newCSS.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_newCSS.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_override.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_override.html
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\t_preparation.dita to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\t_preparation.html
+
+xhtml.topics:
+
+dita.map.xhtml.init:
+
+dita.map.xhtml.toc:
+     [xslt] Transforming into C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out
+     [xslt] Processing C:\Users\pcuser\AppData\Local\Temp\temp20151222163511456\Reveal.ditamap to C:\Users\pcuser\Documents\WRIT4662\clc-4662w.github.com\DITA_FinalProject\out\index.html
+     [xslt] Loading stylesheet C:\Users\pcuser\Documents\WRIT4662\dita-ot-2.1.1\plugins\org.dita.xhtml\xsl\map2html5-cover.xsl
+
+dita.map.xhtml:
+
+copy-css:
+
+copy-css-user:
+
+dita2html5:
+
+clean-temp:

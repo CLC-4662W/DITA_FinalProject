@@ -16,6 +16,8 @@
   <taskbody>
 
     <steps>
+	
+	  
       <step>
         <cmd>Find the "Marvelous List" section in the Reveal.js index file.</cmd>
 	  </step>

@@ -27,7 +27,7 @@
 	  
 	  <step><cmd>Comment out the "Created by" section. Do not delete it - keeping it in gives credit to the creator of Reveal.js.</cmd></step>
 	  
-	  <step><cmd>Delete the content in all the sections except "Marvelous Lists". You will need this for making your bulleted list slide. As the last step in preparing a presentation you can delete section elements so the presentation doesn't have blank slides.</cmd></step>
+	  <step><cmd>Delete the content in all the sections except "Marvelous Lists". You will need this content for making your bulleted list slide. As the last step in preparing a presentation you can delete section elements so the presentation doesn't have blank slides.</cmd></step>
 	  
     </steps>
 	
