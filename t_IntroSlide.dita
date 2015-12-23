@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.2/OS/dtd/task.dtd" []>
+
 <task id="taskId">
+
   <title>Create a title slide </title>
+  
   <shortdesc>You can create a slide with centered headings for use as a title slide.</shortdesc>
+  
   <prolog>
     
     <author type="creator">Cynthia Croy</author>

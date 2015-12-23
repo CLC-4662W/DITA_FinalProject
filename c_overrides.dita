@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
+
+<concept id="coverrides">
+  <title>Tips using overrides.</title>
+  <shortdesc>This document gives tips about when to select the different Reveal.js default overrides.</shortdesc>
+  
+  <conbody>
+  
+	<p>Override by deleting the resets</p>
+	
+	<p>Overriding with new CSS</p>
+	
+	<p>Revise existing CSS classes</p>
+  
+  </conbody>
+</concept>

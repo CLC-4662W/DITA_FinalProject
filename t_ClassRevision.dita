@@ -3,7 +3,7 @@
 
 <task id="taskId">
 
-  <title>Revise existing classes </title>
+  <title>Revise existing CSS classes </title>
   
   <shortdesc>You can override Reveal.js defaults by modifying the CSS classes.</shortdesc>
   

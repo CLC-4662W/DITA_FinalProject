@@ -3,16 +3,21 @@
 
 <map title="Using Reveal.js">
     <title>Using Reveal.js</title>
+	
 	<topicref href= "c_Reveal.dita"/>
 	<topicref href= "t_preparation.dita"/>
 	<topicref href="t_CreateSlides.dita">
-		<topicref href= "t_override.dita">
+		<topicref href= "c_overrides.dita">
 			<topicref href= "t_newCSS.dita"/>
 			<topicref href= "t_delete.dita"/>
 			<topicref href= "t_ClassRevision.dita"/></topicref>
-		<topicref href= "t_IntroSlide.dita"/>
-		<topicref href= "t_SimpleImageSlide"/>
-		<topicref href= "t_BulletList.dita"/></topicref>
+		<topicref href= "t_IntroSlide.dita">
+			<topicref href= "c_overrides.dita"/></topicref>
+		<topicref href= "t_SimpleImageSlide.dita">
+			<topicref href= "c_overrides.dita"/></topicref>
+		<topicref href= "t_BulletList.dita">
+			<topicref href= "c_overrides.dita"/></topicref>
+	</topicref>
 			
 	<topicref href= "ref_Reveal.dita"/>
 </map>
