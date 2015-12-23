@@ -3,7 +3,7 @@
 
 <task id="taskId">
 
-  <title>Create a bullet list slide </title>
+  <title>Create a bullet list slide.</title>
   
   <shortdesc>This topic describes how to create a slide with a bulleted list.</shortdesc>
   
@@ -22,7 +22,7 @@
         <cmd>Find the "Marvelous List" section in the Reveal.js index file.</cmd>
 	  </step>
 	  <step>
-		<cmd>Replace the text in the list item elements with your bullet points.</cmd>
+		<cmd>Replace the text in the list item (li) elements with your bullet points.</cmd>
 	  </step>   
     </steps>
   </taskbody>

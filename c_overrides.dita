@@ -1,17 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
 
-<concept id="coverrides">
-  <title>Tips using overrides.</title>
-  <shortdesc>This document gives tips about when to select the different Reveal.js default overrides.</shortdesc>
+<concept id="overrides">
+  <title>Tips for using overrides.</title>
+  <shortdesc>This document gives tips about when to select which Reveal.js default override.</shortdesc>
   
   <conbody>
   
-	<p>Override by deleting the resets</p>
+	<p>Overriding with new CSS code-
+	Create new CSS code if you want the formats to apply only to a specific portion of the presentation, such as one slide.</p>
 	
-	<p>Overriding with new CSS</p>
+	<p>Override by deleting the resets-
+	The resets defined in the Reveal.js CSS file for the demonstration presentation are all class id's. Do not delete any of these class id's unless you're sure that you want all your slides to use the standard CSS defaults.</p>
 	
-	<p>Revise existing CSS classes</p>
+	<p>Revise existing CSS classes-
+	Revising existing classes will apply your changes universally to all slides that use that class. This is a good way to make universal format changes, such as font size or centering/left justification.</p>
   
   </conbody>
 </concept>

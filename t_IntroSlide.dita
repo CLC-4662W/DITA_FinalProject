@@ -3,7 +3,7 @@
 
 <task id="taskId">
 
-  <title>Create a title slide </title>
+  <title>Create an introduction slide. </title>
   
   <shortdesc>You can create a slide with centered headings for use as a title slide.</shortdesc>
   
@@ -17,8 +17,10 @@
     <steps>
       <step>
         <cmd>Reset the Reveal.js CSS file such that this slide will have centered content.</cmd>
+		
 		<info><note>This step will not be necessary if you didn't make any changes for the presentation to be left justified because the Reveal.js default is to center all of the slides.</note></info>
 	  </step>
+	  
 	  <step><cmd>Enter text into h1, h2, and h3 elements to create a title slide.</cmd>
 	  </step>   
     </steps>

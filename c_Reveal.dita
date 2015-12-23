@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
 
-<concept id="cintro">
+<concept id="intro">
   <title>Important Reveal.js concepts</title>
   <shortdesc>This document describes how Reveal.js works and includes some definitions required to understand the description and some of the tasks. </shortdesc>
   

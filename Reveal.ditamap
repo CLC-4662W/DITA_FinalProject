@@ -6,11 +6,11 @@
 	
 	<topicref href= "c_Reveal.dita"/>
 	<topicref href= "t_preparation.dita"/>
-	<topicref href="t_CreateSlides.dita">
+	<topicref href="c_CreateSlides.dita">
 		<topicref href= "c_overrides.dita">
-			<topicref href= "t_newCSS.dita"/>
-			<topicref href= "t_delete.dita"/>
-			<topicref href= "t_ClassRevision.dita"/></topicref>
+			<topicref href= "t_OverrideByCreatingNewCSS.dita"/>
+			<topicref href= "t_OverrideByDeletingReset.dita"/>
+			<topicref href= "t_OverrideWithClassRevision.dita"/></topicref>
 		<topicref href= "t_IntroSlide.dita">
 			<topicref href= "c_overrides.dita"/></topicref>
 		<topicref href= "t_SimpleImageSlide.dita">

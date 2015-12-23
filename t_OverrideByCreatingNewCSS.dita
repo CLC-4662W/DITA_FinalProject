@@ -3,7 +3,7 @@
 
 <task id="taskId">
 
-  <title>Override with new CSS </title>
+  <title>Override with new CSS code</title>
   
   <shortdesc>It is possible to override Reveal.js defaults with new CSS code.</shortdesc>
   

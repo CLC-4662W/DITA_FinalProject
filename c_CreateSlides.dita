@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
+
+<concept id="CreateSlides">
+  <title>Create the slides. </title>
+  
+  <shortdesc>To get started with Reveal.js, create a basic three slide presentation.</shortdesc>
+  <prolog>
+    
+    <author type="creator">Cynthia Croy</author>
+
+  </prolog>            
+  
+  <conbody>
+ <p>The "tips for using overrides" topic gives tips and instructions about how to override Reveal.js defaults. Overrides may be necessary for any of the "creating slides" topics.</p> 
+  
+  </conbody>
+</concept>
